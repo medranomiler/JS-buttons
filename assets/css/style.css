@@ -1,0 +1,61 @@
+*{
+    font-family: "system-ui";
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns:1;
+    justify-content: center;
+}
+.container{
+    width: auto;
+    height: 500px;
+    border: 10px solid black;
+    border-radius:50px;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 30px;
+}
+.head{
+    font-size: 50px;
+}
+#buttons{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#button-1{
+    margin:10px;
+    background-color:red ;
+    font-size: 30px;
+    border-radius: 20px;
+}
+#button-2{
+    margin:10px;
+    background-color:orange ;
+    font-size: 30px;
+    border-radius: 20px;
+}
+#button-3{
+    margin:10px;
+    background-color:yellow ;
+    font-size: 30px;
+    border-radius: 20px;
+}
+#button-4{
+    margin:10px;
+    background-color:green ;
+    font-size: 30px;
+    border-radius: 20px;
+}
+#button-5{
+    margin:10px;
+    background-color:blue ;
+    font-size: 30px;
+    border-radius: 20px;
+}
